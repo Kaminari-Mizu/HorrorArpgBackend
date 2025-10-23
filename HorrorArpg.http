@@ -1,0 +1,6 @@
+@HorrorArpg_HostAddress = http://localhost:5193
+
+GET {{HorrorArpg_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
