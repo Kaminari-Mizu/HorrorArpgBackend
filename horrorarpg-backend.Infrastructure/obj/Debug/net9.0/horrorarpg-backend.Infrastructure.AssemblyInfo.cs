@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("horrorarpg-backend.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a47463eb85850489f659818bec66f75caf725795")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+499c2f22b71d5b892fa634313131ac8989a9d025")]
 [assembly: System.Reflection.AssemblyProductAttribute("horrorarpg-backend.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("horrorarpg-backend.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
