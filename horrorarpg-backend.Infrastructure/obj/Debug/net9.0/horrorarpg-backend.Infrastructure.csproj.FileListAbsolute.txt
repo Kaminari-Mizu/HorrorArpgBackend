@@ -32,3 +32,4 @@ C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructu
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.pdb
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.genruntimeconfig.cache
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\ref\horrorarpg-backend.Infrastructure.dll
+C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.sourcelink.json
