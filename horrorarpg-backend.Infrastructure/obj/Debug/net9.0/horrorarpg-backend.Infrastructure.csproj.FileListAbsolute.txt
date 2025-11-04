@@ -26,10 +26,10 @@ C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructu
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.AssemblyInfo.cs
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.sourcelink.json
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorar.1EA979D8.Up2Date
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\refint\horrorarpg-backend.Infrastructure.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.pdb
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.genruntimeconfig.cache
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\ref\horrorarpg-backend.Infrastructure.dll
-C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Infrastructure\obj\Debug\net9.0\horrorarpg-backend.Infrastructure.sourcelink.json

@@ -18,6 +18,7 @@ C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\De
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\horrorarpg-backend.Tests.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\horrorarpg-backend.Tests.pdb
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\AutoFixture.dll
+C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\AutoFixture.AutoMoq.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Tests\bin\Debug\net9.0\Azure.Identity.dll

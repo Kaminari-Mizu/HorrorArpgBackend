@@ -19,9 +19,9 @@ C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Deb
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.AssemblyInfoInputs.cache
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.AssemblyInfo.cs
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.sourcelink.json
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\refint\horrorarpg-backend.Core.dll
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.pdb
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.genruntimeconfig.cache
 C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\ref\horrorarpg-backend.Core.dll
-C:\Users\jason\Documents\Work\horrorarpg-backend\horrorarpg-backend.Core\obj\Debug\net9.0\horrorarpg-backend.Core.sourcelink.json

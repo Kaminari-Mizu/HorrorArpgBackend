@@ -9,6 +9,7 @@
       "horrorarpg-backend.Tests/1.0.0": {
         "dependencies": {
           "AutoFixture": "4.18.1",
+          "AutoFixture.AutoMoq": "4.18.1",
           "FluentAssertions": "8.8.0",
           "HorrorArpg": "1.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.10",
@@ -31,6 +32,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/AutoFixture.dll": {
+            "assemblyVersion": "4.18.0.0",
+            "fileVersion": "4.18.1.694"
+          }
+        }
+      },
+      "AutoFixture.AutoMoq/4.18.1": {
+        "dependencies": {
+          "AutoFixture": "4.18.1",
+          "Moq": "4.20.72"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoFixture.AutoMoq.dll": {
             "assemblyVersion": "4.18.0.0",
             "fileVersion": "4.18.1.694"
           }
@@ -2021,6 +2034,13 @@
       "sha512": "sha512-BmWZDY4fkrYOyd5/CTBOeXbzsNwV8kI4kDi/Ty1Y5F+WDHBVKxzfWlBE4RSicvZ+EOi2XDaN5uwdrHsItLW6Kw==",
       "path": "autofixture/4.18.1",
       "hashPath": "autofixture.4.18.1.nupkg.sha512"
+    },
+    "AutoFixture.AutoMoq/4.18.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5mG4BdhamHBJGDKNdH5p0o1GIqbNCDqq+4Ny4csnYpzZPYjkfT5xOXLyhkvpF8EgK3GN5o4HMclEe2rhQVr1jQ==",
+      "path": "autofixture.automoq/4.18.1",
+      "hashPath": "autofixture.automoq.4.18.1.nupkg.sha512"
     },
     "AutoMapper/14.0.0": {
       "type": "package",

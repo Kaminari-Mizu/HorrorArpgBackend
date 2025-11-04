@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("horrorarpg-backend.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+499c2f22b71d5b892fa634313131ac8989a9d025")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+201f02c2c28f5f9ce3fece30ad4f61f07b9d1a6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("horrorarpg-backend.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("horrorarpg-backend.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
