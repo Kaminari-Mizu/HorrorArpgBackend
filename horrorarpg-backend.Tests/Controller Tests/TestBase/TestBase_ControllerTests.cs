@@ -16,7 +16,7 @@ namespace horrorarpg_backend.Tests.Controller_Tests.TestBase
         protected Fixture _fixture;
         protected Mock<HttpContext> _httpContextMock;
         protected ClaimsPrincipal _claimsPrincipal;
-        protected ModelStateDictionary _modelState; // FIX: Real instance (add errors in test Arrange)
+        protected ModelStateDictionary _modelState; // Real instance (add errors in test Arrange)
 
         [SetUp]
         public void BaseSetup_Controller()
@@ -28,10 +28,10 @@ namespace horrorarpg_backend.Tests.Controller_Tests.TestBase
             _fixture.Behaviors.Add(new OmitOnRecursionBehavior());
 
             _httpContextMock = new Mock<HttpContext>();
-            // FIX: Default to empty ClaimsPrincipal (no claims for unauthorized tests)
+            // Default to empty ClaimsPrincipal (no claims for unauthorized tests)
             _claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity());
             _httpContextMock.Setup(c => c.User).Returns(_claimsPrincipal);
-            _modelState = new ModelStateDictionary(); // FIX: Real ModelState (add errors in Arrange; IsValid computed from errors)
+            _modelState = new ModelStateDictionary(); // Real ModelState (add errors in Arrange; IsValid computed from errors)
         }
 
         // Helper: Creates controller with injected service and mocked HttpContext
@@ -39,7 +39,7 @@ namespace horrorarpg_backend.Tests.Controller_Tests.TestBase
         {
             var controller = (TController)Activator.CreateInstance(typeof(TController), service);
             controller.ControllerContext = new ControllerContext { HttpContext = _httpContextMock.Object };
-            // FIX: No ModelState assignment (read-only); add errors in test Arrange if needed
+            // No ModelState assignment (read-only); add errors in test Arrange if needed
             return controller;
         }
 
@@ -57,6 +57,14 @@ namespace horrorarpg_backend.Tests.Controller_Tests.TestBase
         protected void SetupClaims(Guid userId)
         {
             var identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, userId.ToString()) });
+            _claimsPrincipal = new ClaimsPrincipal(identity);
+            _httpContextMock.Setup(c => c.User).Returns(_claimsPrincipal);
+        }
+
+        // Helper: Sets invalid claim for TryParse failure
+        protected void SetupClaimsWithInvalid(string claimValue)
+        {
+            var identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, claimValue) });
             _claimsPrincipal = new ClaimsPrincipal(identity);
             _httpContextMock.Setup(c => c.User).Returns(_claimsPrincipal);
         }
@@ -88,12 +96,21 @@ namespace horrorarpg_backend.Tests.Controller_Tests.TestBase
             badResult.Value.Should().Be(message);
         }
 
-        // Helper: Asserts Unauthorized(401)
+        // Helper: Asserts plain Unauthorized(401) (no value)
         protected void AssertUnauthorized(IActionResult result)
         {
             result.Should().BeOfType<UnauthorizedResult>();
             var unauthResult = (UnauthorizedResult)result;
             unauthResult.StatusCode.Should().Be(401);
+        }
+
+        // FIX: Updated helper for UnauthorizedObjectResult (StatusCode 401, Value "Invalid token")
+        protected void AssertUnauthorizedObject(IActionResult result, string expectedValue)
+        {
+            result.Should().BeAssignableTo<ObjectResult>(); // FIX: AssignableTo for subclass (UnauthorizedObjectResult : ObjectResult)
+            var unauthResult = (ObjectResult)result;
+            unauthResult.StatusCode.Should().Be(401);
+            unauthResult.Value.Should().Be(expectedValue);
         }
 
         // Helper: Asserts NotFound(404) with msg
